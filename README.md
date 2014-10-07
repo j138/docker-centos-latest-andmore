@@ -11,4 +11,3 @@ CentOS6をyum-updateしていろいろ入れておくためのイメージ 時�
 - redis
 - supervisor
 - td-agent
-- sensu
