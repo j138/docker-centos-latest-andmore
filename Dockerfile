@@ -21,6 +21,3 @@ RUN \
   sudo which tar bzip2 zip unzip curl-devel git openssh-server openssh-clients syslog gcc gcc-c++ libxml2 libxml2-devel libxslt libxslt-devel readline readline-devel jemalloc jemmalloc-devel \
   httpd httpd-devel mysql-server mysql-devel phpmyadmin sqlite sqlite-devel redis td-agent \
   php php-devel php-pear php-mysql php-gd php-mbstring php-pecl-imagick php-pecl-memcache nodejs npm erlang bash-completion zsh zsh-devel htop vim file
-
-ADD sensu.repo /etc/yum.repos.d/
-RUN yum install -y sensu uchiwa

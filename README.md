@@ -12,5 +12,3 @@ CentOS6をyum-updateしていろいろ入れておくためのイメージ 時�
 - supervisor
 - td-agent
 - sensu
-- uchiwa
-
