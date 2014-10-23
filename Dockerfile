@@ -22,5 +22,5 @@ RUN \
   httpd httpd-devel mysql-server mysql-devel phpmyadmin sqlite sqlite-devel redis td-agent \
   php php-devel php-pear php-mysql php-gd php-mbstring php-pecl-imagick php-pecl-memcache nodejs npm erlang bash-completion zsh zsh-devel htop vim file \
   python python-devel python-pip pycairo python-twisted-web python-zope-interface python-django-tagging python-rrdtool \
-  mod_wsgi mod_python python-simplejson python-sqlite2 python-gunicorn
+  mod_wsgi mod_python python-simplejson python-sqlite2 python-gunicorn python-carbon
 
