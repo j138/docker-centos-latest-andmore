@@ -4,6 +4,7 @@ CentOS6をyum-updateしていろいろ入れておくためのイメージ 時�
 
 - nginx
 - apache
+- nginx
 - php5.4
 - node
 - mysql
