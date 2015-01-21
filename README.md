@@ -1,6 +1,6 @@
  概要
 ----
-CentOS6をyum-updateしていろいろ入れておくためのイメージ 時間短縮用
+CentOS6をyum-updateしていろいろ入れておくためのイメージ。いわゆるビルド時間短縮用repos
 
 - nginx
 - apache
