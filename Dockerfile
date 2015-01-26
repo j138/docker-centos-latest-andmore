@@ -1,5 +1,5 @@
 FROM centos:centos6
-MAINTAINER j138
+MAINTAINER Junya Nakazato
 ENV HOME /root
 
 # package install
@@ -21,10 +21,9 @@ RUN \
 
 RUN \
   yum --enablerepo=remi,epel,treasuredata install -y \
-  sudo wget which tar bzip2 zip unzip telnet curl-devel git mercurial openssh-server openssh-clients syslog gcc gcc-c++ libxml2 libxml2-devel libxslt libxslt-devel readline readline-devel jemalloc jemmalloc-devel file \
-  httpd httpd-devel nginx mysql-server mysql-devel phpmyadmin sqlite sqlite-devel redis td-agent python python-devel python-pip \
-  php php-devel php-pear php-mysql php-gd php-mbstring php-pecl-imagick php-pecl-memcache nodejs npm erlang \
-  zsh zsh-devel autojump htop colordiff autojump-zsh the_silver_searcher bash-completion; \
+  sudo wget which tar bzip2 zip unzip telnet curl-devel git mercurial openssh-server openssh-clients syslog gcc gcc-c++ libxml2 libxml2-devel libxslt libxslt-devel readline readline-devel jemalloc jemmalloc-devel \
+  httpd httpd-devel nginx mysql-server mysql-devel sqlite sqlite-devel redis td-agent python python-devel python-pip \
+   nodejs npm erlang zsh zsh-devel autojump htop colordiff autojump-zsh the_silver_searcher bash-completion; \
   yum clean all
 
 # vim setup
